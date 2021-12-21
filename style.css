@@ -1,0 +1,43 @@
+input[type=text] {
+    width: 100%;
+    padding : 12px 20px;
+    margin: 0px;
+    display: inline-block;
+    border: 1px;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+  
+input[type=email] {
+    width: 100%;
+    padding : 12px 20px;
+    margin: 0px;
+    display: inline-block;
+    border: 1px;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+  
+div{
+    border-radius: 5px;
+    background-color: pink;
+    padding: 20px 20px 20px 30px;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 3px 2px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: yellow;
+}
